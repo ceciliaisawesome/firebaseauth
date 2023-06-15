@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Create an Account"
+        android:textSize="20dp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textColor="#022F43"/>
+
+    <EditText
+        android:id="@+id/Edtlogemail_regemail"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:ems="10"
+        android:hint="Enter Email Address" />
+
+    <EditText
+        android:id="@+id/Edt_1stpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="25sp"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+
+       android:hint="Enter Password" />
+
+    <EditText
+        android:id="@+id/Edt_2ndpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="45dp"
+       android:hint="Confirm Password" />
+
+    <Button
+        android:id="@+id/Btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="50dp"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="55dp"
+        android:text="I already have an account " />
+</LinearLayout>

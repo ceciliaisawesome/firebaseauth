@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Edtlogemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="70sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email Address"
+        android:textSize="30dp"
+        android:minHeight="50sp"
+        android:textColorHint="#091142"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/Edtlogpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="#091142"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="90sp"
+        android:backgroundTint="#4CAF50"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/TVlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:gravity="fill_horizontal"
+        android:text="If you don't have an account click here to Register"
+        android:textColor="#091142"
+        android:textSize="20sp" />
+</LinearLayout>
